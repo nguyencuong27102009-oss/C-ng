@@ -2,49 +2,52 @@
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
-<title>Hồ sơ cá nhân</title>
+<title>Nguyễn Cao Nhật Cường</title>
 
 <style>
 
 /* LƯỚT MƯỢT */
 html{
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
-/* NỀN XANH */
+/* NỀN */
 body{
   margin:0;
   font-family: Arial;
-  background: linear-gradient(135deg, #4fa3e3, #3c8ed6);
+  background: linear-gradient(135deg,#4fa3e3,#ffffff);
 }
 
 /* MENU */
 nav{
-  background: rgba(255,255,255,0.95);
+  position:fixed;
+  width:100%;
+  top:0;
+  background:white;
   padding:18px;
   text-align:center;
-  position: sticky;
-  top:0;
+  box-shadow:0 3px 10px rgba(0,0,0,0.1);
+  z-index:1000;
 }
 
 nav a{
   margin:0 25px;
   text-decoration:none;
-  font-size:24px;
+  font-size:22px;
   font-weight:bold;
   color:#333;
-  transition:0.3s;
+  transition:0.2s;
 }
 
 nav a:hover{
-  color:#3c8ed6;
+  color:#4fa3e3;
 }
 
 /* BANNER */
 .banner{
-  background:url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b") no-repeat center;
-  background-size:cover;
   height:500px;
+  background:url("https://images.unsplash.com/photo-1552674605-db6ffd4facb5") no-repeat center;
+  background-size:cover;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -53,34 +56,34 @@ nav a:hover{
 }
 
 .banner h1{
-  font-size:52px;
+  font-size:50px;
 }
 
 .banner p{
-  font-size:26px;
+  font-size:24px;
 }
 
 /* SECTION */
 section{
   background:white;
   width:85%;
-  margin:40px auto;
+  margin:80px auto;
   padding:40px;
   border-radius:20px;
-  box-shadow:0 10px 30px rgba(0,0,0,0.2);
-  animation: fadeIn 0.6s ease;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+  animation:fade 0.5s;
 }
 
-/* HIỆU ỨNG */
-@keyframes fadeIn{
-  from{opacity:0; transform:translateY(30px);}
+/* ANIMATION */
+@keyframes fade{
+  from{opacity:0; transform:translateY(20px);}
   to{opacity:1; transform:translateY(0);}
 }
 
 /* TEXT */
 h2{
-  font-size:36px;
-  color:#3c8ed6;
+  font-size:34px;
+  color:#4fa3e3;
 }
 
 p{
@@ -91,6 +94,8 @@ p{
 /* ẢNH */
 img{
   width:100%;
+  max-height:300px;
+  object-fit:cover;
   border-radius:15px;
   margin:20px 0;
   transition:0.3s;
@@ -107,97 +112,86 @@ img:hover{
 
 <!-- MENU -->
 <nav>
-  <a href="#gioithieu">Giới thiệu</a>
-  <a href="#nangluc">Năng lực</a>
-  <a href="#duan">Dự án</a>
-  <a href="#lienhe">Liên hệ</a>
+  <a href="#gt">Giới thiệu</a>
+  <a href="#nl">Năng lực</a>
+  <a href="#da">Dự án</a>
+  <a href="#lh">Liên hệ</a>
 </nav>
 
 <!-- ẢNH NỀN -->
 <div class="banner">
   <div>
-    <h1>Phạm Lâm Như Ý</h1>
-    <p>Học sinh lớp 11B4 - THPT Tôn Đức Thắng</p>
+    <h1>Nguyễn Cao Nhật Cường</h1>
+    <p>Lớp 12C1 - THPT Nguyễn Du -Bắc Ninh Hòa</p>
   </div>
 </div>
 
 <!-- GIỚI THIỆU -->
-<section id="gioithieu">
+<section id="gt">
 <h2>1. Giới thiệu bản thân</h2>
 
-<img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d">
+<img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d">
 
-<p>Tôi tên là Phạm Lâm Như Ý, hiện đang là học sinh lớp 11B4 tại Trường THPT Tôn Đức Thắng, tỉnh Khánh Hòa. Tôi hiện đang sinh sống tại thôn Tân Phú, xã Ninh Ích, tỉnh Khánh Hòa.</p>
+<p>Tôi tên là Nguyễn Cao Nhật Cường, hiện đang là học sinh lớp 12C1 tại Trường THPT Nguyễn Du - Ninh Hòa, tỉnh Khánh Hòa. Tôi sinh sống tại xã Lạc Ninh, thị xã Ninh Hòa, một vùng đất giàu truyền thống hiếu học và tinh thần thể thao.</p>
 
-<p>Tôi là một học sinh luôn cố gắng học tập và rèn luyện bản thân trong môi trường học đường. Trong quá trình học tập tại trường, tôi luôn cố gắng hoàn thành tốt các nhiệm vụ học tập và tích cực tham gia các hoạt động của lớp.</p>
+<p>Là một học sinh cuối cấp, tôi luôn ý thức được tầm quan trọng của việc cân bằng giữa việc học văn hóa và đam mê cá nhân. Bên cạnh tư cách là một học sinh, tôi còn là một vận động viên trẻ. Đối với tôi, cuộc sống là một đường chạy dài mà ở đó, mỗi ngày tôi đều phải nỗ lực để vượt qua giới hạn của chính mình.</p>
 
-<p>Tôi là người khá hòa đồng, thân thiện với bạn bè và luôn cố gắng hỗ trợ mọi người khi cần. Bên cạnh việc học tập, tôi cũng quan tâm đến việc phát triển các kỹ năng cá nhân như giao tiếp, làm việc nhóm và quản lý thời gian.</p>
-
-<p>Đối với tôi, việc học không chỉ là tiếp thu kiến thức trên lớp mà còn là quá trình rèn luyện bản thân để trở nên tốt hơn mỗi ngày.</p>
+<p>Tôi được bạn bè nhận xét là người năng nổ, có ý chí kiên định và tinh thần lạc quan. Phương châm sống của tôi là: "Chiến thắng quan trọng nhất là chiến thắng chính bản thân mình."</p>
 
 </section>
 
 <!-- NĂNG LỰC -->
-<section id="nangluc">
+<section id="nl">
 <h2>2. Tóm tắt năng lực</h2>
 
-<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+<img src="https://images.unsplash.com/photo-1517649763962-0c623066013b">
 
-<p>Trong quá trình học tập và sinh hoạt tại trường, tôi đã rèn luyện và phát triển một số năng lực như sau:</p>
+<p>Dưới góc độ là một học sinh và một vận động viên, tôi đã rèn luyện được các năng lực cốt lõi sau:</p>
 
-<p><b>Khả năng học tập:</b><br>
-Tôi luôn cố gắng tập trung trong giờ học, ghi chép bài đầy đủ và ôn lại kiến thức sau khi học.</p>
+<p><b>Tính kỷ luật và bền bỉ:</b> Nhờ vào việc tập luyện thể thao cường độ cao, tôi có khả năng chịu đựng áp lực tốt và luôn duy trì tính kỷ luật trong cả học tập lẫn cuộc sống.</p>
 
-<p><b>Kỹ năng giao tiếp:</b><br>
-Tôi có thể trao đổi và làm việc với bạn bè trong lớp khi thực hiện các bài tập nhóm hoặc các hoạt động chung.</p>
+<p><b>Kỹ năng lãnh đạo và phối hợp:</b> Với vai trò vận động viên, tôi hiểu rõ giá trị của tinh thần đồng đội, biết cách dẫn dắt hoặc phối hợp với các thành viên khác để đạt được mục tiêu chung.</p>
 
-<p><b>Kỹ năng làm việc nhóm:</b><br>
-Trong các hoạt động nhóm, tôi có thể phối hợp với các bạn để phân chia nhiệm vụ và hoàn thành công việc.</p>
+<p><b>Khả năng tập trung cao độ:</b> Tôi có thể duy trì sự tập trung tối đa trong các trận đấu cũng như trong những giờ ôn thi căng thẳng của năm lớp 12.</p>
 
-<p><b>Kỹ năng quản lý thời gian:</b><br>
-Tôi cố gắng sắp xếp thời gian hợp lý giữa việc học tập và các hoạt động cá nhân.</p>
+<p><b>Quản lý năng lượng và thời gian:</b> Việc vừa đảm bảo lịch tập huấn, vừa hoàn thành chương trình lớp 12 giúp tôi rèn luyện kỹ năng sắp xếp thời gian biểu một cách khoa học nhất.</p>
 
-<p><b>Tinh thần trách nhiệm:</b><br>
-Tôi luôn cố gắng hoàn thành nhiệm vụ được giao một cách nghiêm túc và đúng thời gian.</p>
+<p><b>Tư duy chiến thuật:</b> Luôn phân tích đối thủ và tình huống để đưa ra những quyết định nhanh chóng, chính xác.</p>
 
 </section>
 
 <!-- DỰ ÁN -->
-<section id="duan">
-<h2>3. Các dự án đã thực hiện</h2>
+<section id="da">
+<h2>3. Các dự án và thành tích đã thực hiện</h2>
 
-<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+<img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf">
 
-<p>Trong quá trình học tập tại trường, tôi đã tham gia và thực hiện một số hoạt động và dự án học tập như:</p>
+<p>Trong suốt những năm học tại Trường THPT Nguyễn Du-Bắc Ninh Hoà, tôi đã đạt được một số dấu ấn đáng chú ý:</p>
 
-<p><b>Thực hiện các bài thuyết trình trên lớp:</b><br>
-Chuẩn bị nội dung và trình bày bài học trước lớp để rèn luyện khả năng trình bày và tự tin khi nói trước nhiều người.</p>
+<p><b>Đại diện trường tham gia Hội khỏe Phù Đổng:</b> Tham gia thi đấu ở các bộ môn sở trường và mang về thành tích cao cho tập thể lớp 12C1 và nhà trường.</p>
 
-<p><b>Tham gia các bài tập nhóm:</b><br>
-Cùng các bạn trong lớp tìm kiếm thông tin, thảo luận và hoàn thành các bài tập chung.</p>
+<p><b>Xây dựng Câu lạc bộ Thể thao tại trường:</b> Tham gia điều hành nhóm các bạn cùng đam mê, tổ chức các buổi tập luyện cuối tuần để nâng cao sức khỏe cộng đồng học sinh.</p>
 
-<p><b>Tham gia các hoạt động của lớp:</b><br>
-Hỗ trợ các hoạt động tập thể và tham gia các công việc chung khi cần thiết.</p>
+<p><b>Dự án "Học tập hiệu quả cho vận động viên":</b> Thiết kế phương pháp học nhanh, nhớ lâu để hỗ trợ các bạn trong đội tuyển thể thao không bị hổng kiến thức khi đi thi đấu xa.</p>
 
-<p><b>Tìm hiểu thêm kiến thức ngoài giờ học:</b><br>
-Đọc thêm tài liệu và tìm hiểu thông tin trên Internet để mở rộng kiến thức.</p>
+<p><b>Tham gia các giải chạy/giải đấu phong trào tại Khánh Hòa:</b> Tích cực cọ xát tại các giải đấu cấp thị xã và cấp tỉnh để tích lũy kinh nghiệm thực tế.</p>
 
 </section>
 
 <!-- LIÊN HỆ -->
-<section id="lienhe">
+<section id="lh">
 <h2>4. Liên hệ bản thân</h2>
 
-<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
 
-<p><b>Họ và tên:</b> Phạm Lâm Như Ý</p>
-<p><b>Trường:</b> THPT Tôn Đức Thắng</p>
-<p><b>Lớp:</b> 11B4</p>
-<p><b>Địa chỉ:</b> Thôn Tân Phú, xã Ninh Ích, tỉnh Khánh Hòa</p>
-<p><b>Email:</b> yn823890@gmail.com</p>
-<p><b>Số điện thoại:</b> Chưa cung cấp</p>
-
-<p>Tôi luôn sẵn sàng học hỏi thêm nhiều kiến thức mới và mong muốn phát triển bản thân tốt hơn trong quá trình học tập cũng như trong cuộc sống.</p>
+<p><b>Họ và tên:</b> Nguyễn Cao Nhật Cường</p>
+<p><b>Trường:</b> THPT Nguyễn Du -Bắc Ninh Hòa</p>
+<p><b>Lớp:</b> 12C1</p>
+<p><b>Địa chỉ:</b> Xã Lạc Ninh, thị xã Ninh Hòa, tỉnh Khánh Hòa</p>
+<p><b>Email:</b> nguyencuong27122009@gmail.com</p>
+<p><b>Số điện thoại:</b> 09x.xxx.xxxx (Cập nhật sau)</p>
+<p><b>Nghề nghiệp/Vai trò:</b> Vận động viên trẻ / Học sinh</p>
+<p><b>Sở thích:</b> Chơi các môn thể thao (Bóng đá, Điền kinh), tìm hiểu về dinh dưỡng thể thao và khám phá những cung đường mới.</p>
 
 </section>
 
