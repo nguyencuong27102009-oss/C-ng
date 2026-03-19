@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Hồ sơ cá nhân</title>
+
+<style>
+
+/* LƯỚT MƯỢT */
+html{
+  scroll-behavior: smooth;
+}
+
+/* NỀN XANH */
+body{
+  margin:0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #4fa3e3, #3c8ed6);
+}
+
+/* MENU */
+nav{
+  background: rgba(255,255,255,0.95);
+  padding:18px;
+  text-align:center;
+  position: sticky;
+  top:0;
+}
+
+nav a{
+  margin:0 25px;
+  text-decoration:none;
+  font-size:24px;
+  font-weight:bold;
+  color:#333;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#3c8ed6;
+}
+
+/* BANNER */
+.banner{
+  background:url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b") no-repeat center;
+  background-size:cover;
+  height:500px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+}
+
+.banner h1{
+  font-size:52px;
+}
+
+.banner p{
+  font-size:26px;
+}
+
+/* SECTION */
+section{
+  background:white;
+  width:85%;
+  margin:40px auto;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  animation: fadeIn 0.6s ease;
+}
+
+/* HIỆU ỨNG */
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(30px);}
+  to{opacity:1; transform:translateY(0);}
+}
+
+/* TEXT */
+h2{
+  font-size:36px;
+  color:#3c8ed6;
+}
+
+p{
+  font-size:20px;
+  line-height:1.8;
+}
+
+/* ẢNH */
+img{
+  width:100%;
+  border-radius:15px;
+  margin:20px 0;
+  transition:0.3s;
+}
+
+img:hover{
+  transform:scale(1.05);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- MENU -->
+<nav>
+  <a href="#gioithieu">Giới thiệu</a>
+  <a href="#nangluc">Năng lực</a>
+  <a href="#duan">Dự án</a>
+  <a href="#lienhe">Liên hệ</a>
+</nav>
+
+<!-- ẢNH NỀN -->
+<div class="banner">
+  <div>
+    <h1>Phạm Lâm Như Ý</h1>
+    <p>Học sinh lớp 11B4 - THPT Tôn Đức Thắng</p>
+  </div>
+</div>
+
+<!-- GIỚI THIỆU -->
+<section id="gioithieu">
+<h2>1. Giới thiệu bản thân</h2>
+
+<img src="https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d">
+
+<p>Tôi tên là Phạm Lâm Như Ý, hiện đang là học sinh lớp 11B4 tại Trường THPT Tôn Đức Thắng, tỉnh Khánh Hòa. Tôi hiện đang sinh sống tại thôn Tân Phú, xã Ninh Ích, tỉnh Khánh Hòa.</p>
+
+<p>Tôi là một học sinh luôn cố gắng học tập và rèn luyện bản thân trong môi trường học đường. Trong quá trình học tập tại trường, tôi luôn cố gắng hoàn thành tốt các nhiệm vụ học tập và tích cực tham gia các hoạt động của lớp.</p>
+
+<p>Tôi là người khá hòa đồng, thân thiện với bạn bè và luôn cố gắng hỗ trợ mọi người khi cần. Bên cạnh việc học tập, tôi cũng quan tâm đến việc phát triển các kỹ năng cá nhân như giao tiếp, làm việc nhóm và quản lý thời gian.</p>
+
+<p>Đối với tôi, việc học không chỉ là tiếp thu kiến thức trên lớp mà còn là quá trình rèn luyện bản thân để trở nên tốt hơn mỗi ngày.</p>
+
+</section>
+
+<!-- NĂNG LỰC -->
+<section id="nangluc">
+<h2>2. Tóm tắt năng lực</h2>
+
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+
+<p>Trong quá trình học tập và sinh hoạt tại trường, tôi đã rèn luyện và phát triển một số năng lực như sau:</p>
+
+<p><b>Khả năng học tập:</b><br>
+Tôi luôn cố gắng tập trung trong giờ học, ghi chép bài đầy đủ và ôn lại kiến thức sau khi học.</p>
+
+<p><b>Kỹ năng giao tiếp:</b><br>
+Tôi có thể trao đổi và làm việc với bạn bè trong lớp khi thực hiện các bài tập nhóm hoặc các hoạt động chung.</p>
+
+<p><b>Kỹ năng làm việc nhóm:</b><br>
+Trong các hoạt động nhóm, tôi có thể phối hợp với các bạn để phân chia nhiệm vụ và hoàn thành công việc.</p>
+
+<p><b>Kỹ năng quản lý thời gian:</b><br>
+Tôi cố gắng sắp xếp thời gian hợp lý giữa việc học tập và các hoạt động cá nhân.</p>
+
+<p><b>Tinh thần trách nhiệm:</b><br>
+Tôi luôn cố gắng hoàn thành nhiệm vụ được giao một cách nghiêm túc và đúng thời gian.</p>
+
+</section>
+
+<!-- DỰ ÁN -->
+<section id="duan">
+<h2>3. Các dự án đã thực hiện</h2>
+
+<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+
+<p>Trong quá trình học tập tại trường, tôi đã tham gia và thực hiện một số hoạt động và dự án học tập như:</p>
+
+<p><b>Thực hiện các bài thuyết trình trên lớp:</b><br>
+Chuẩn bị nội dung và trình bày bài học trước lớp để rèn luyện khả năng trình bày và tự tin khi nói trước nhiều người.</p>
+
+<p><b>Tham gia các bài tập nhóm:</b><br>
+Cùng các bạn trong lớp tìm kiếm thông tin, thảo luận và hoàn thành các bài tập chung.</p>
+
+<p><b>Tham gia các hoạt động của lớp:</b><br>
+Hỗ trợ các hoạt động tập thể và tham gia các công việc chung khi cần thiết.</p>
+
+<p><b>Tìm hiểu thêm kiến thức ngoài giờ học:</b><br>
+Đọc thêm tài liệu và tìm hiểu thông tin trên Internet để mở rộng kiến thức.</p>
+
+</section>
+
+<!-- LIÊN HỆ -->
+<section id="lienhe">
+<h2>4. Liên hệ bản thân</h2>
+
+<img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c">
+
+<p><b>Họ và tên:</b> Phạm Lâm Như Ý</p>
+<p><b>Trường:</b> THPT Tôn Đức Thắng</p>
+<p><b>Lớp:</b> 11B4</p>
+<p><b>Địa chỉ:</b> Thôn Tân Phú, xã Ninh Ích, tỉnh Khánh Hòa</p>
+<p><b>Email:</b> yn823890@gmail.com</p>
+<p><b>Số điện thoại:</b> Chưa cung cấp</p>
+
+<p>Tôi luôn sẵn sàng học hỏi thêm nhiều kiến thức mới và mong muốn phát triển bản thân tốt hơn trong quá trình học tập cũng như trong cuộc sống.</p>
+
+</section>
+
+</body>
+</html>
